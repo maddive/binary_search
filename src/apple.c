@@ -20,8 +20,8 @@ int main(){
     scanf("%d", &A[i]);
   }
 
-  lb = 1; //最小の初期値
-  ub = 1000000000; //最大の初期値
+  lb = 0;
+  ub = 1000000000;
 
   while(ub - lb > 1) {
     int mid = (lb + ub) / 2;
